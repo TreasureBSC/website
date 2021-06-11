@@ -35,10 +35,11 @@ class About extends Component {
               <div className="row">
 
                 <div className="columns contact-details">
-                  <h2><i className="fa fa-check-square"></i> Fair Launched</h2>
-                  <h2><i className="fa fa-check-square"></i> Liquidity Locked</h2>
-                  <h2><i className="fa fa-check-square"></i> Ownership Renounced</h2>
-                  <h2><i className="fa fa-check-square"></i> No Team Tokens</h2>
+                  <h2><i className="fa fa-check-square" /> Fair Launched</h2>
+                  <h2><i className="fa fa-check-square" /> Liquidity Locked</h2>
+                  <h2><i className="fa fa-check-square" /> Ownership Renounced</h2>
+                  <h2><i className="fa fa-check-square" /> 100% Community Owned</h2>
+                  <h2><i className="fa fa-check-square" /> No Team Tokens</h2>
                 </div>
                 <div className="columns download">
                   <p>
