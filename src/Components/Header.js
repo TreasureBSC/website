@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import piratechest from '../Images/piratechest.png';
 
 class Header extends Component {
   render() {
@@ -13,7 +14,10 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg
+            className="particles-bg-canvas-self"
+            type="polygon"
+        />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -26,25 +30,25 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Roadmap
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                Whitepaper
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Locked Liquidity
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Renounced Ownership
               </a>
             </li>
 
@@ -68,7 +72,7 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                  <i className="fa fa-book"></i>View Whitepaper
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
