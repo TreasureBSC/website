@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import treasureTlogo from '../Images/treasureTlogo.png';
+import whitepaper from "../Assets/whitepaper.pdf";
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -23,35 +24,26 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                src={treasureTlogo}
+                alt="Treasure Logo"
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>What is the Treasure token?</h2>
 
               <p>{bio}</p>
               <div className="row">
+
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
+                  <h2><i className="fa fa-check-square"></i> Fair Launched</h2>
+                  <h2><i className="fa fa-check-square"></i> Liquidity Locked</h2>
+                  <h2><i className="fa fa-check-square"></i> Ownership Renounced</h2>
+                  <h2><i className="fa fa-check-square"></i> No Team Tokens</h2>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                    <a href={whitepaper} target="_blank" className="button btn whitepaper-btn">
+                      <i className="fa fa-book"></i>View Whitepaper
                     </a>
                   </p>
                 </div>

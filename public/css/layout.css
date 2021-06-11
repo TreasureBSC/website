@@ -60,16 +60,15 @@ header .banner-text {
 header .banner-text h1 {
     font-family: Arial, Defcon, sans-serif;
     font-weight: bolder;
+    font-size: 80px;
     color: #fff;
    margin: 0 auto 18px auto;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 header .banner-text h3 {
-    border: 1px solid #1d262c;
-    padding: 5px;
-    background: rgba(14, 112, 186, .9);
+    font-weight: bolder;
     font-family: Arial, Defcon, sans-serif;
-    color: #e3e3e3;
+    color: #ffffff;
     margin: 0 auto;
     width: 70%;
 }
@@ -131,7 +130,7 @@ header .scrolldown a:hover { color: #0762f9; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 18px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -188,7 +187,7 @@ ul#nav li.current a { color: #fffb00; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #015dac;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -208,13 +207,12 @@ ul#nav li.current a { color: #fffb00; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 240px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 55.66667%; }
 #about .download {
-   width: 58.33333%;
+   width: 44.33333%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
@@ -1022,11 +1020,14 @@ footer .social-links li:first-child { margin-left: 0; }
 .social .btn i{
    margin-right: 15px;
 }
-.project-btn{
-   background-color: #1abc9c !important;
+.chart-btn{
+   background-color: #99883d !important;
 }
-.github-btn{
-   background-color: #34495e !important;
+.whitepaper-btn{
+   background-color: #9a9a9a !important;
+}
+.buynow-btn{
+   background-color: #1f9e34 !important;
 }
 
 .particles-bg-canvas-self {
