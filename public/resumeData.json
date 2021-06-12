@@ -3,7 +3,7 @@
     "name":"reasure",
     "description":"Earn up to 37% reflections by holding",
     "image":"profilepic.jpg",
-    "bio":"Treasure is the world's first hyper-deflationary DeFi token on the Binance Smart Chain to use dynamically decreasing tax rates that rewards holders and adds liquidity. The contract's unique tokenomics reduces price volatility and lowers the likelihood of pump and dumps. The quicker you sell, the higher tax you pay. The longer you hold, the more you earn.",
+    "bio":"Treasure is the world's first hyper-deflationary DeFi token on the Binance Smart Chain to use dynamically decreasing tax rates that rewards holders and adds liquidity. The contract's unique tokenomics reduces price volatility and lowers the likelihood of pump and dumps. Quick sellers are punished with higher tax rates.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -19,24 +19,14 @@
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
         "url":"http://twitter.com",
         "className":"fa fa-twitter"
       },
       {
-        "name":"linkedin",
+        "name":"telegram",
         "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "className":"fa fa-telegram"
       },
       {
         "name":"github",

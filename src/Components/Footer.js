@@ -1,35 +1,37 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { FaTelegram, FaTwitter, FaGithub } from "react-icons/fa";
 
 class Footer extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const networks = this.props.data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
 
     return (
       <footer>
         <div className="row">
           <Fade bottom>
             <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
-
-              <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
-                <li>
-                  Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
+              <ul className="social-links">
+                <li >
+                  <a href='https://twitter.com/TreasureBSC' target='_blank'>
+                    <FaTwitter/>
                   </a>
                 </li>
+                <li >
+                  <a href='https://github.com/TreasureBSC' target='_blank'>
+                    <FaGithub/>
+                  </a>
+                </li>
+                <li >
+                  <a href='https://t.me/TreasureBSC' target='_blank'>
+                    <FaTelegram/>
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul className="copyright">
+                <li>&copy; Copyright 2021 TreasureBSC</li>
               </ul>
             </div>
           </Fade>

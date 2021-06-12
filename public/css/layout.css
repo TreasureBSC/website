@@ -55,7 +55,7 @@ header .banner {
 }
 
 header .banner-text {
-    width: 120%;
+    width: 100%;
 }
 header .banner-text h1 {
     font-family: Arial, Defcon, sans-serif;
@@ -266,8 +266,15 @@ ul#nav li.current a { color: #fffb00; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 20px 'librebaskerville', serif;
-   color: #6E7881;
+    font: 20px 'Arial', serif;
+    color: #2b3d5a;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+
+#resume .small {
+   font: 14px 'Arial', serif;
+   color: #6f84a1;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -1032,6 +1039,16 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .particles-bg-canvas-self {
     position: absolute;
-    background: linear-gradient(0deg, rgba(0, 53, 90, 0.4), rgba(0, 0, 0, 0.4)), url('../images/beachpiratebg.png') center;
+    background: url('../images/beachpiratebg1.png') center;
     background-size:cover;
+}
+
+.roadmapTitleContainer {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.roadmapTitle {
+   font: 50px 'Arial', serif;
+   color: #16212f;
 }
