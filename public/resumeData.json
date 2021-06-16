@@ -1,9 +1,10 @@
 {
   "main": {
     "name":"reasure",
-    "description":"Earn up to 37% reflections by holding",
+    "description":"Generate passive income by holding",
     "image":"profilepic.jpg",
-    "bio":"Treasure is the world's first hyper-deflationary DeFi token on the Binance Smart Chain to use dynamically decreasing tax rates that rewards holders and adds liquidity. The contract's unique tokenomics reduces price volatility and lowers the likelihood of pump and dumps. Quick sellers are punished with higher tax rates.",
+    "bio":"Treasure is a hyper-deflationary DeFi token on the Binance Smart Chain with one of the highest reflection rates that benefits holders. 15% tax on all trades: 10% is redistributed to holders, 5% goes into liquidity.",
+    "bio2":"Treasure is the world's first hyper-deflationary DeFi token on the Binance Smart Chain to use dynamically decreasing tax rates that rewards holders and adds liquidity. The contract's unique tokenomics reduces price volatility and lowers the likelihood of pump and dumps. Quick sellers are punished with higher tax rates.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",

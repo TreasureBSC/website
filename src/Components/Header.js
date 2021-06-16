@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-import whitepaper from '../Assets/whitepaper.pdf';
 import treasureHeader from '../Images/treasureHeader.png';
+import whitepaper from "../Assets/litepaper.pdf";
 
 class Header extends Component {
   render() {
@@ -47,16 +47,11 @@ class Header extends Component {
             </li>
 
             <li>
-              <a href="https://bscscan.com">
-                Locked Liquidity
+              <a href={whitepaper} target="_blank">
+                Litepaper
               </a>
             </li>
 
-            <li>
-              <a href="https://bscscan.com">
-                Renounced Ownership
-              </a>
-            </li>
           </ul>
         </nav>
 

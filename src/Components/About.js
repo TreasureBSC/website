@@ -1,23 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 import treasureTlogo from '../Images/treasureTlogo.png';
-import whitepaper from "../Assets/whitepaper.pdf";
-import { FaTelegram } from "react-icons/fa";
+import whitepaper from "../Assets/litepaper.pdf";
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
     const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
-
     return (
       <section id="about">
         <Fade duration={1000}>
@@ -46,7 +36,7 @@ class About extends Component {
                 <div className="columns download">
                   <p>
                     <a href={whitepaper} target="_blank" className="button btn whitepaper-btn">
-                      <i className="fa fa-book"></i>View Whitepaper
+                      <i className="fa fa-book"></i>View Litepaper
                     </a>
                   </p>
                 </div>
