@@ -27,8 +27,9 @@ class About extends Component {
 
                 <div className="columns contact-details">
                   <h2><i className="fa fa-check-square" /> Fair Launched</h2>
-                  <h2><i className="fa fa-check-square" /> Liquidity Locked</h2>
-                  <h2><i className="fa fa-check-square" /> Ownership Renounced</h2>
+                  <h2><i className="fa fa-check-square" /> <a href="https://dxsale.app/app/pages/dxlockview?id=0&add=0xC843d597fF80B2737512C18fCf5F9719C7bc4909&type=lplock&chain=BSC" target="_blank">Liquidity Locked</a></h2>
+                  <h2><i className="fa fa-check-square" /> <a href="https://bscscan.com/tx/0x33339f68f66584ff98477766d3149f7ee38f5d00f39e361f4575d5d5523248d4" target="_blank">50 Billion Tokens Burned</a></h2>
+                  <h2><i className="fa fa-check-square" /> Ownership to be Renounced</h2>
                   <h2><i className="fa fa-check-square" /> 100% Community Owned</h2>
                   <h2><i className="fa fa-check-square" /> No Team Tokens</h2>
                 </div>

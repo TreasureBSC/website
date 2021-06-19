@@ -38,7 +38,7 @@ class Resume extends Component {
                 <p className="info">
                     Logo Redesign
                     <br/>
-                    <small className="small">Hire a graphics designer to redesign the Treasure logo with $200 in community-funded donations. Send $BUSD, $BNB, or $TRSR to 0x33e8D9b873EDB0462cBF24f7597281F01Ee16eDB.</small>
+                    <small className="small">Hire a graphics designer to redesign the Treasure logo.</small>
                 </p>
                 <p className="info">
                     Update Top Level Domain

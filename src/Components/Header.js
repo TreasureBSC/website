@@ -68,15 +68,15 @@ class Header extends Component {
               <h3>{description}.</h3>
             </Fade>
             <Fade bottom duration={1200}>
-              <a className="contract-address">0x0D53B039D2216d73512d6eFbc2601d3F5799d2f1</a>
+              <a className="contract-address">0x3f990f0340ac7f4fc6fe5676bbb938d88aa30965</a>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href="https://poocoin.app/tokens/0x0d53b039d2216d73512d6efbc2601d3f5799d2f1" target="_blank" className="button btn chart-btn">
+                <a href="https://poocoin.app/tokens/0x3f990f0340ac7f4fc6fe5676bbb938d88aa30965" target="_blank" className="button btn chart-btn">
                   <i className="fa fa-bar-chart-o"></i>Poocoin
                 </a>
-                <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0D53B039D2216d73512d6eFbc2601d3F5799d2f1" target="_blank" className="button btn buynow-btn">
+                <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3f990F0340ac7f4FC6FE5676bBB938d88Aa30965" target="_blank" className="button btn buynow-btn">
                   <i className="fa fa-credit-card"></i>Pancakeswap
                 </a>
               </ul>
