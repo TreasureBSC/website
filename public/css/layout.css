@@ -49,14 +49,10 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
    padding-bottom: 30px;
-   text-align: center;
+   text-align: center !important;
 }
 
-header .banner-text {
-    width: 100%;
-}
 header .banner-text h1 {
     font-family: Arial, Defcon, sans-serif;
     font-weight: bolder;
@@ -1028,13 +1024,13 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .chart-btn{
-   background-color: #99883d !important;
+   background-color: #916646 !important;
 }
 .whitepaper-btn{
    background-color: #9a9a9a !important;
 }
 .buynow-btn{
-   background-color: #1f9e34 !important;
+   background-color: #3ddeea !important;
 }
 
 .particles-bg-canvas-self {
@@ -1051,4 +1047,9 @@ footer .social-links li:first-child { margin-left: 0; }
 .roadmapTitle {
    font: 50px 'Arial', serif;
    color: #16212f;
+}
+
+.contract-address {
+    font: 15px 'Arial', serif;
+    color: #ffffff;
 }

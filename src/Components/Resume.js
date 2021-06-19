@@ -85,9 +85,19 @@ class Resume extends Component {
                     <small className="small">Create a blueprint and rough draft for a Treasure token NFT marketplace.</small>
                 </p>
                 <p className="info">
-                    Treasure Mobile App
+                    Mobile App
                     <br/>
                     <small className="small">Create an iOS and android app to send and receive Treasure tokens from your mobile device.</small>
+                </p>
+                <p className="info">
+                    Partnerships
+                    <br/>
+                    <small className="small">Find partnerships to use Treasure as a reserve currency.</small>
+                </p>
+                <p className="info">
+                    Treasure Token v2
+                    <br/>
+                    <small className="small">Develop a new contract with unique, one-of-a-kind tokenomics and airdrop tokens to all holders. The technical whitepaper is already in progress. The name of the project will be voted on by the community.</small>
                 </p>
             </div>;
 

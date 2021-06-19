@@ -12,6 +12,8 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const contract = this.props.data.contract;
+
 
     return (
       <header id="home">
@@ -65,14 +67,17 @@ class Header extends Component {
             <Fade bottom duration={1200}>
               <h3>{description}.</h3>
             </Fade>
+            <Fade bottom duration={1200}>
+              <a className="contract-address">0x0D53B039D2216d73512d6eFbc2601d3F5799d2f1</a>
+            </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href="https://poocoin.app" target="_blank" className="button btn chart-btn">
-                  <i className="fa fa-bar-chart-o"></i>Live Chart
+                <a href="https://poocoin.app/tokens/0x0d53b039d2216d73512d6efbc2601d3f5799d2f1" target="_blank" className="button btn chart-btn">
+                  <i className="fa fa-bar-chart-o"></i>Poocoin
                 </a>
-                <a href="https://pancakeswap.finance/" target="_blank" className="button btn buynow-btn">
-                  <i className="fa fa-credit-card"></i>Buy Now!
+                <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0D53B039D2216d73512d6eFbc2601d3F5799d2f1" target="_blank" className="button btn buynow-btn">
+                  <i className="fa fa-credit-card"></i>Pancakeswap
                 </a>
               </ul>
             </Fade>

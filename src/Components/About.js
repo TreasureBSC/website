@@ -31,7 +31,6 @@ class About extends Component {
                   <h2><i className="fa fa-check-square" /> Ownership Renounced</h2>
                   <h2><i className="fa fa-check-square" /> 100% Community Owned</h2>
                   <h2><i className="fa fa-check-square" /> No Team Tokens</h2>
-                  <h2><i className="fa fa-check-square" /> No Presale</h2>
                 </div>
                 <div className="columns download">
                   <p>
